@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicación</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/app5a.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/contami2.jpg','imagenes/cambioClimatico2.jpg')">
+  <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Dia Mundial De La Tierra.</h1>
+    </div>
+    
+    <div align="center">
+      <img src="imagenes/DiaDeLaTierra.jpg">
+    </div>
+  
+ <div>
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Dia De La Tierra.</h2>
+           </a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Contaminación.</h2>
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Paisajes Hermosos De México.</h2>
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Cambios Que Debemos Hacer.</h2> 
+               </a>
+              </li>
+         </ul>
+         <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Más paisajes.</h1>
+          <div align="center">
+  <p><a href="https://www.youtube.com/watch?v=5CyenW1cp4g/"></a></p>
+  <p><a href="https://www.youtube.com/watch?v=5CyenW1cp4g/">Video Para Más Paisajes</a></p>
+   </div> 
+          </div>
+  
+     </div>
+ </div>
+ 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+     <h4>Aplicacion Cinco</h4>
+   </div>
+  <div>  
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Yessica Perez Morales</h4>
+     </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Dia De La Tierra.</h1>
+   </div>
+   <div data-role="content" align="center">
+    
+    
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>¿Porque Se Celebra El Dia De La Tierra?</h1>
+          <div align="justify">
+          <p> El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.
+          </p>
+          <br>
+          </div>
+   <div>
+     <img src="imagenes/Gaylord Nelson.jpg">
+     </div>
+     </div>
+     </div>
+    
+    
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Importancia Del 22 De Abril.</h1>
+          <div align="justify">
+          <p>Gaylord Nelson escogió la fecha de tal manera que se maximizara la participación en las universidades, ya que lo consideraba un encuentro entre maestros y alumnos. Determinó que la semana del 19 al 25 de abril era la mejor apuesta, ya que esta no coincidía con los exámenes o las vacaciones de primavera.8 Más aún, esta fecha no tenía ningún conflicto con celebraciones religiosas como la Pascua o el Pésaj, y era demasiado tarde en primavera para tener un clima decente. Más estudiantes preferirían estar en clase y habría menos competencia con otros eventos de media semana –así que eligió el miércoles 22 de abril. El día también coincidió con el aniversario del natalicio de John Muir, notable conservacionista.
+Sin el conocimiento de Nelson,9 el 22 de abril de 1970 fue, por coincidencia, el centésimo aniversario del natalicio de Lenin, cuando se trasladó al calendario gregoriano, el cual fue adoptado por los rusos hasta 1918. La revista Time reportó que muchos no pensaron que la fecha fuera una coincidencia, sino una pista de que el evento fue un “engaño comunista”, y citaron a un miembro de Daughters of the American Revolution, diciendo: “elementos subversivos planean hacer que los niños americanos vivan en un ambiente que sea bueno para ellos”.10 John Edgar Hoover, director del Buró Federal de Investigaciones, pudo haber creado la intriga de la conexión con Lenin, ya que se presumía que el FBI llevaba a cabo tareas de vigilancia en las manifestaciones de 1970.11 La idea de que la fecha fuera escogida para celebrar el centenario de Lenin, aún persiste en algunos cuarteles.
+
+          </p>
+          <br>
+          </div>
+          </div>
+  
+     </div>
+    
+    
+     <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Ciudades Verdes.</h1>
+          <div align="justify">
+          <p>Índice de Ciudades Verdes de América Latina: se trata de una evaluación comparativa del impacto ecológico de las principales ciudades de América Latina, según la División de Población de las Naciones Unidas, Latinoamérica es la región en vías de desarrollo más urbanizada del mundo, se maneja un porcentaje del 81% de la población viviendo en zonas urbanas. Así se justifican las preocupaciones como la congestión de tráfico, políticas de uso de la tierra, disposición de desechos y calidad del aire. Este proyecto de investigación es independiente, realizado por la Economist Intelligence Unit y patrocinado por Siemens.18 El reporte está dividido en cinco partes metodológicas; hace, además, un análisis profundo de Curitiba como ciudad líder en el tema. Se examinan los hallazgos respecto a las ocho categorías individuales del Índice: energía y CO2, uso de la tierra y edificios, transporte, desechos, agua, saneamiento, calidad del aire y gobernanza medioambiental. En México se incluyeron cuatro ciudades de las cuales las mejores calificadas fueron: Ciudad de México y Puebla, destacando a ésta por llevar a cabo un “proyecto ejemplar” llamado Monedero Ecológico19 por encima de Monterrey y Guadalajara.
+          </p>
+          
+          <br>
+          </div>
+   <div>
+     <center><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/ciudadVerde1.jpg',1)"><img src="imagenes/ciudadVerde2.jpg" width="317" height="294" id="Image2" /></a></center>
+     </div>
+     </div>
+     </div>
+     <div>
+        <img src="imagenes/en_tus_manos.jpg">
+     </div>
+     
+   
+   <div data-role="footer" data-theme="a" data-position="fixed">
+     <h4>Yessica Perez Morales</h4>
+   </div>
+   </div>
+</div>
+   
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Contaminación.</h1>
+  </div>
+  <div data-role="content" align="center">
+  
+     <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>¿Que es la contaminación ambiental?</h1>
+          <div align="justify">
+         
+     </div>
+     <div align="justify">
+          <p>
+          Se denomina contaminación ambiental a la presencia en el ambiente de cualquier agente (físico, químico o biológico) o bien de una combinación de varios agentes en lugares, formas y concentraciones tales que sean o puedan ser nocivos para la salud, la seguridad o para el bienestar de la población, o bien, que puedan ser perjudiciales para la vida vegetal o animal, o impidan el uso normal de las propiedades y lugares de recreación y goce de los mismos. La contaminación ambiental es también la incorporación a los cuerpos receptores de sustancias sólidas, liquidas o gaseosas, o mezclas de ellas, siempre que alteren desfavorablemente las condiciones naturales del mismo, o que puedan afectar la salud, la higiene o el bienestar del público.</p>
+         
+          <br>
+      </div>
+           <div align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/contami2.jpg',1)"><img src="imagenes/contami1.jpg" width="259" height="194" id="Image15"></a> </div>
+     </div>
+          
+  
+     </div>
+     
+     
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Tipos De Contaminación Ambiental</h1>
+          <div align="justify">
+            <p>
+           <h3> •	Contaminación del agua: </h3>es la incorporación al agua de materias extrañas, como microorganismos, productos químicos, residuos industriales, y de otros tipos o aguas residuales. Estas materias deterioran la calidad del agua y la hacen inútil para los usos pretendidos.
+            </p>
+           
+      <div align="center">
+     <img src="imagenes/contaminacionAgua.jpg">
+     </div>
+     
+     
+     <p>
+     <h3>•	Contaminación del suelo: </h3>es la incorporación al suelo de materias extrañas, como basura, desechos tóxicos, productos químicos, y desechos industriales. La contaminación del suelo produce un desequilibrio físico, químico y biológico que afecta negativamente las plantas, animales y humanos.
+     </p>
+    
+       <div align="center">
+     <img src="imagenes/contaminacionSuelo.jpg">
+     </div>
+     
+     <p>
+    <h3> •	Contaminación del aire: </h3>es la adición dañina a la atmósfera de gases tóxicos, CO, u otros que afectan el normal desarrollo de plantas, animales y que afectan negativamente la salud de los humanos.
+     </p>
+     
+     <div align="center">
+     <img src="imagenes/contaminacionAire.jpg">
+     </div>
+     
+          </div>
+      </div>
+     </div>
+  
+  
+   <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Efectos De La Contaminación Ambiental</h1>
+          
+          <div align="justify">
+            <p>Expertos en salud ambiental y cardiólogos de la Universidad de California del Sur (EE.UU), acaban de demostrar por primera vez lo que hasta ahora era apenas una sospecha: la contaminación ambiental de las grandes ciudades afecta la salud cardiovascular. Se comprobó que existe una relación directa entre el aumento de las partículas contaminantes del aire de la ciudad y el engrosamiento de la pared interna de las arterias (la "íntima media"), que es un indicador comprobado de aterosclerosis.
+El efecto persistente de la contaminación del aire respirado, en un proceso silencioso de años, conduce finalmente al desarrollo de afecciones cardiovasculares agudas, como el infarto. Al inspirar partículas ambientales con un diámetro menor de 2,5 micrómetros, ingresan en las vías respiratorias más pequeñas y luego irritan las paredes arteriales. Los investigadores hallaron que por cada aumento de 10 microgramos por metro cúbico de esas partículas, la alteración de la pared íntima media de las arterias aumenta un 5,9 %. El humo del tabaco y el que en general proviene del sistema de escape de los autos producen la misma cantidad de esas partículas. Normas estrictas de aire limpio contribuirían a una mejor salud con efectos en gran escala.
+Otro de los efectos es el debilitamiento de la capa de ozono, que protege a los seres vivos de la radiación ultravioleta del Sol, debido a la destrucción del ozono estratosférico por Cl y Br procedentes de la contaminación; o el calentamiento global provocado por el aumento de la concentración de CO2 atmosférico que acompaña a la combustión masiva de materiales fósiles. Lastimosamente los empresarios y sus gobiernos no se consideran parte de la naturaleza ni del ambiente que le rodean, ni toman ninguna conciencia de los daños que hacen al planeta, e indirectamente a sí misma, al mismo ritmo con que los produce; salvo el retirar sus contaminantes de sus regiones.
+
+Deteriora cada vez más a nuestro planeta
+Atenta contra la vida de plantas, animales y personas
+Genera daños físicos en los individuos
+Convierte en un elemento no consumible al agua
+En los suelos contaminados no es posible la siembra
+            </p>
+            <div align="center">
+              <img src="imagenes/efectoCapadeozono.jpg">
+            </div>
+          </div>
+          
+      </div>
+   </div>
+   
+   
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Cambios Climaticos por La Contaminación Ambiental</h1>
+          
+          <div align="justify">
+            <p>El cambio climático, inducido por la actividad del ser humano, supone que la temperatura media del planeta aumentó 0,6 grados en el S.XX. La temperatura media del planeta subirá entre 1,4 y 5,8 grados entre 1990 y 2100. En el mismo período, el nivel medio del mar aumentará entre 0,09 y 0,88 metros. El aumento del S.XX no se ha dado en ninguno de los últimos diez siglos. 
+El cambio climático acelerará la aparición de enfermedades infecciosas, como las tropicales, que encontrarán condiciones propicias para su expansión, incluso en zonas del Norte. La Organización Mundial de la Salud advirtió que es probable que los cambios locales de temperaturas y precipitaciones creen condiciones más favorables para los insectos transmisores de enfermedades infecciosas, como la malaria o el dengue. 
+La atmósfera actúa como una trampa térmica y este efecto invernadero aumenta con la concentración de gases como el CO2. La actividad humana, la deforestación y, sobre todo, la quema de combustibles fósiles incrementan la presencia de este gas en el aire. La concentración atmosférica de CO2 se ha incrementado en un 31% desde 1750. 
+La cubierta de nieve y hielo ha disminuido en un 10% desde finales de los 60. Igualmente, se observa una reducción de los glaciares a lo largo del S.XX. Ha aumentado la temperatura superficial del océano y el nivel del mar entre 0,1 y 0,2 m. en el S.XX (y que irá en aumento amenazando de inundar a ciertos países). También se registran cambios en el régimen de lluvias, en la cubierta de nubes y en el patrón de ocurrencia de fenómenos como la corriente cálida de El Niño, que se ha vuelto más frecuente. Tal aumento puede conducir a una mayor incidencia de enfermedades transmitidas por el agua, como el cólera, y de las relacionadas con toxinas, como el envenenamiento por mariscos. 
+La única forma de frenar la modificación del clima es reducir drásticamente las emisiones de gases invernadero, como el CO2. Es necesario presionar a los gobiernos y empresas mundiales, básicamente, para que reduzcan las emisiones de CO2.
+
+La incineración de los residuos es una fuente muy importante de contaminación ambiental pues emite sustancias de elevada toxicidad, a la atmósfera y genera cenizas también tóxicas. Al contaminar, pues, el aire que respiramos, el agua que bebemos y nuestros alimentos, la incineración afecta gravemente a nuestra salud. 
+Entre los compuestos tóxicos destacan -principalmente- metales pesados y las dioxinas. Estas últimas son extremadamente tóxicas, persistentes y acumulativas en toda la cadena alimentaria. Son sustancias cancerígenas y que alteran los sistemas inmunitario, hormonal, reproductor y nervioso. 
+En consecuencia, las empresas y las Administraciones deben invertir sus esfuerzos económicos y personales en desarrollar otras alternativas.
+
+            </p>
+            <div align="center">
+               
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/cambioClimatico2.jpg',1)"><img src="imagenes/cambioClimatico1.jpg" width="260" height="194" id="Image17"></a></div>
+          </div>
+          
+      </div>
+   </div>
+   
+   <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Paises Más Contaminantes Del Mundo</h1>
+          
+          <div align="center">
+             <!-- Start WOWSlider.com -->
+<iframe src="visor/visor2/index_wow_2.html" style="width:338px;height:250px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+          </div>
+      </div>
+   </div>
+     
+     
+  
+  
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Yessica Perez Morales</h4>
+        </div>
+       </div>
+       </div>
+      
+      
+      
+    
+      
+      
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+      <h1> Paisajes Hermosos De México</h1>
+      </div>
+      <div>
+      <!-- Start WOWSlider.com -->
+<iframe src="visor/visor1/index_wow.html" style="width:350px;height:270px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<br>
+
+     <div data-role="footer" data-theme="c" data-position="fixed">
+     <h4>Yessica Perez Morales</h4>
+   
+     </div>
+     
+     
+     </div>
+    </div>
+    
+    
+    
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Cambios Que Debemos Hacer.</h1>
+</div>
+   <div data-role="content" align="center">
+     
+     
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Cambios</h1>
+          <div align="justify">
+          <p>1.- Antes de comprar un producto, hazte la pregunta si realmente lo necesitas. Cualquier consumo innecesario es en esencia antiecológico y antieconómico, ¿no lo crees?
+          </p>
+          <p>
+2.- Sé crítico con la publicidad. Mira las cualidades de los productos, no los sueños que te venden en la publicidad muchas veces engañosa.
+</p>
+<p>
+3.- Antes de tirar cualquier cosa a la basura, piensa si se puede reutilizar, reciclar o reparar, o si puede ser útil para otra persona.
+</p>
+<p>
+4.- Evita las latas de bebidas, vale más el envase que su contenido y apenas se recuperan. La energía necesaria para producir y transportar una lata equivale a la mitad del bote lleno de petróleo.
+</p>
+<p>
+5.- La energía que producen las pilas es más de 600 veces más cara que la de la red. Conecta los aparatos a la red siempre que esto sea posible. Si te es imprescindible usar pilas (nunca tires las usadas a la basura), procura que sean recargables.
+</p>
+<p>
+6.- Desconecta los aparatos eléctricos de la red cuando no están funcionando. Algunos aparatos (como televisores) siguen gastando hasta un 33% de la energía.
+</p>
+<p>
+7.- Prescinde de los electrodomésticos innecesarios como cepillos de dientes, abrelatas, cuchillos eléctricos, etc. Son más cómodos algunos pero ninguno se iguala al sentimiento de hacerlo manualmente y saber que ahorraste miles de kilogramos de gases contaminantes que pudieron haberse liberado en alguna fábrica…China, seguro. Ten en cuenta los criterios de ahorro energético al comprar nuevos frigoríficos, lavadoras, etc.
+          </p>
+           <div align="center">
+              <img src="imagenes/LED1.jpg" width="453" height="300">
+              <p>Reemplaza las bombillas convencionales por las de bajo consumo.</p>
+           </div>
+           <p>
+           8.- Usa bombillas LED que duran mucho más que las bombillas  tradicionales y que inclusiva las fluorescentes. Son de bajo consumo de energía para dar la misma cantidad de luz, con lo cual se termina ahorrando dinero y colaborando con el medio ambiente.
+           </p>
+           <p>
+9.- Evita los aerosoles que contienen CFCs y que son causantes de la destrucción de la capa de ozono, u otros gases que también contribuyen al efecto invernadero. Los pulverizadores son una buena alternativa y son recargables.
+</p>
+<p>
+10.-La gran mayoría de los productos de limpieza que se anuncian no sólo son innecesarios sino también muy nocivos para el medio ambiente. Casi toda la casa puede quedar perfectamente limpia con jabón, bicarbonato, vinagre y limón.
+</p>
+<p>
+11.- Los ambientadores no eliminan los malos olores sino que desprenden otros más fuertes que nos impiden detectar los primeros. Que éstos sean legítimamente ecológicos, biodegradables y libres de químicos agresivos.
+</p>
+<p>
+12.- Evita usar productos agresivos: limpiahornos, lejía, etc., que impiden los procesos biológicos de depuración del agua. Nunca tires productos tóxicos, pintura o aceite de cocinar al desagüe. Llama a la empresa de agua y alcantarillado y pregunta. Esa es la salida moralmente correcta y tendrás a tu consciencia feliz. Lo otro, tirar donde te apetece para ser un “borrego” más de los que sobran.
+</p>
+<p>
+13.- Para ahorrar agua, instala un sistema de doble descarga en el inodoro, ya que vaciar la cisterna entera supone gastar de 10 a litros. Repara los grifos que gotean. Una gota por segundo son 30 litros al día. Hay que poner el hombro al cuidado del medio ambiente.
+</p>
+<p>
+14.- Tapa siempre las cazuelas para no despilfarrar calor. La olla exprés es la mejor opción: ahorra tiempo y energía. Si no, son preferibles las cazuelas de hierro, acero inoxidable o barro antes que las de aluminio.
+</p>
+<p>
+15.- En la alimentación, evita la comida basura o precocinada, ya que suele contener muchos aditivos y conservantes y viene sobre empaquetada. Procura consumir alimentos frescos, de temporada y de producción local.
+</p>
+<p>
+16.- Rechaza los alimentos envasados en bandejas de poliestireno expandido (corcho blanco). Los productos no son mejores porque vengan envueltos en plástico.
+</p>
+<p>
+17.- Guarda los alimentos en la clásica fiambrera o tarros de cristal en lugar de envolverlos o taparlos con película de plástico o aluminio.
+</p>
+<p>
+18.- Evita los productos que recorren grandes distancias antes de llegar al consumidor. Da preferencia a las alternativas locales. No tiene sentido consumir miel chilena, cerveza mexicana o galletas danesas. Solo incrementas la huella ecológica que dejas en el planeta.
+</p>
+<p>
+19.- Aprovecha bien el papel: úsalo por las dos caras, utilízalo reciclado y envíalo después a reciclar. Rechaza el papel blanqueado con cloro.
+</p>
+<p>
+20.- Apúntate a la Lista Robinson para dejar de recibir publicidad personalizada por correo. Coloca un distintivo en tu buzón indicando que no quieres propaganda.
+
+           </p>
+           <div align="center">
+              <img src="imagenes/ELECTRICIDAD.jpg" width="300" height="485">
+              <p>
+              Desenchufa todo lo que no uses. Por más apagado el equipo consume electricidad.
+              </p>
+           </div>
+           <p>
+           21.- Si te es imprescindible usar el coche para acudir al trabajo, compártelo con otros compañeros o vecinos (“carpool“). En el tiempo o las vacaciones, no recurras siempre al coche, explora otras posibilidades de viajar o hacer excursiones en transporte público.
+           </p>
+           <p>
+22.- Es absurdo pretender estar en manga corta durante el invierno, a costa de gastar mucha calefacción. Es preferible ponerse un jersey. En verano no abuses del aire acondicionado, que también libera CFCs.
+</p>
+<p>
+23.- Evita los productos con PVC. Producen furanos y dioxinas cuando son incinerados.
+</p>
+<p>
+24.- Si te ha caducado algún medicamento, no lo tires a la basura ni al WC. Llévalo a la farmacia, donde deben hacerse cargo de él.
+“Vamos, fuerza que ya casi terminas de leer los mejores consejos para que cuides el medio ambiente y seas parte activa del mismo. Ya basta de ver desde el palco cómo nuestro hermoso planeta se degrada”
+</p>
+<p>
+25.- No agobies a los niños con juguetes complejos que requieren baterías. Déjales jugar con su imaginación. Es más sano y hasta les favorecerás con un mejor desarrollo cognitivo.
+
+           </p>
+          <br>
+          </div>
+         
+  
+     </div>
+     <br>
+     
+     </div>
+     
+     
+     <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Reflexión</h1>
+          <div align="justify">
+          <p>        En mi opinión, cuidar la tierra y hacer conciencia sobre los daños que provocamos en ella no es cosa de un día, es algo que debemos pensar diariamente, debemos pensar cosas como ¿Qué daño nos provocamos a nosotros mismos? ¿Qué daño provocamos a las demás especies? ¿Cuántos animales se están extinguiendo a causa de nuestra contaminación? , ese tipo de cosas son las que nos hacen tomar conciencia.
+          </p>
+          <br>
+          </div>
+   <div>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/unidos.jpg',1)"><img src="imagenes/contaminacionMundial.png" width="208" height="243" id="Image12"></a>
+     </div>
+     </div>
+     </div>
+     
+     
+       <div data-role="footer" data-theme="a" data-position="fixed">
+     <h4>Yessica Perez Morales</h4>
+   </div>
+   </div>
+   
+
+    
+</body>
+</html>
